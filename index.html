@@ -355,12 +355,12 @@
         }
         .bot-checkbox:hover { border-color:var(--accent); background:rgba(255,255,255,0.1); }
         .bot-checkbox.checked {
-            background:linear-gradient(135deg,#ffffff,#e5e5e5);
+            background:linear-gradient(135deg,#000,#e5e5e5);
             border-color:var(--accent);
             box-shadow:0 0 12px rgba(255,255,255,0.5);
         }
         .bot-checkbox.checked::after {
-            content:'☠️'; color:transparent; font-weight:900; font-size:14px;
+            content:'☠️'; color:fff; font-weight:900; font-size:14px;
             animation:checkPop .25s ease;
         }
         @keyframes checkPop{from{transform:scale(0)}to{transform:scale(1)}}
